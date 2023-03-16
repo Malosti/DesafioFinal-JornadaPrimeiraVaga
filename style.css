@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body
+{
+    background-image: url(https://i.ibb.co/HP2DdVX/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 160px;
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+h3
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h3 span
+{
+    color: #FFC700;
+}
+
+h1
+{
+    color: #FFC700;
+    font-family: 'Emilys Candy';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+p
+{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+a
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 32px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a:hover,
+.btn-primary
+{
+    text-decoration: none;
+    color: #040101;
+    background-color: #FFC700;
+    opacity: 1;
+}
